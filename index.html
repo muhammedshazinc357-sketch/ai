@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Chat with Shazin's personal AI assistant.">
+  <title>Shazin AI Assistant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <header class="top">
+      <div class="avatar" aria-hidden="true">S<span>✦</span></div>
+      <div><h1>Shazin AI</h1><p><span class="online"></span> Personal assistant · Online</p></div>
+    </header>
+
+    <section class="intro">
+      <span class="eyebrow">WELCOME</span>
+      <h2>How can I help you?</h2>
+      <p>I am the AI assistant of Shazin. Ask me about him, general knowledge, or the time.</p>
+    </section>
+
+    <section class="chat" id="chat" aria-live="polite" aria-label="Chat messages">
+      <article class="message bot"><div class="bubble">Hi there! 👋 I can answer questions about Muhammed Shazin C, share general knowledge, and tell you the current time. What would you like to know?</div></article>
+    </section>
+
+    <div class="suggestions" aria-label="Suggested questions">
+      <button type="button" data-question="What's your name?">What's your name?</button>
+      <button type="button" data-question="What are you studying?">Study</button>
+      <button type="button" data-question="What time is it now?">Current time</button>
+      <button type="button" data-question="Who is the Prime Minister of India?">Prime Minister</button>
+    </div>
+
+    <form class="composer" id="chatForm">
+      <label class="sr-only" for="userInput">Ask a question</label>
+      <input id="userInput" autocomplete="off" placeholder="Ask me anything..." required>
+      <button class="send" type="submit" aria-label="Send message">➤</button>
+    </form>
+
+    <footer>
+      <p><strong>Created by Muhammed Shazin C</strong></p>
+      <div class="contact">
+        <a href="https://instagram.com/shazinshafeeq_" target="_blank" rel="noopener">Instagram @shazinshafeeq_</a>
+        <a href="mailto:muhammedshazinc357@gmail.com">Gmail</a>
+        <a href="https://wa.me/919400701146" target="_blank" rel="noopener">WhatsApp / Phone: 9400 701 146</a>
+      </div>
+    </footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
